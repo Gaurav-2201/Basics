@@ -1,0 +1,12 @@
+import java.util.*;
+class WhiteSpace
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		String s = sc.nextLine();
+		s = s.replaceAll("\\s+", " ");
+		System.out.print(s);
+		sc.close();
+	}
+}
